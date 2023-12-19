@@ -1,5 +1,5 @@
 import axios from "axios";
-const URL = "https://34.125.160.99:9000/generate_text";
+const URL = "http://34.125.160.99:9000/generate_text";
 
 export const chatbotRes = async (data) => {
     const prompt = {"prompt": `${data}`}
