@@ -37,9 +37,9 @@ function App() {
     <>
       <div className="chat-container">
         <div className="header">
-          <img alt="Image" className="imgclass" src={image2}></img>
+          <img alt="legalalt" className="imgclass" src={image2}></img>
           <div>Nyaya-Bot</div>
-          <img alt="Image" className="imgclass" src={image1}></img>
+          <img alt="legalalt2" className="imgclass" src={image1}></img>
           </div>
         <div className="message-area">
           <div>
