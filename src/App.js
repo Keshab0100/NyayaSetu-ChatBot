@@ -25,6 +25,7 @@ function App() {
 
     setChat((prevArray) => [...prevArray, "Typing..."]);
     var data = await chatbotRes(req);
+    console.log(data)
     setChat((prevArray) => prevArray.slice(0, -1));
     setLoading(false);
     temp(data);
