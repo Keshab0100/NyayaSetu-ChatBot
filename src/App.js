@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 import { chatbotRes } from "./service/api";
 import LeftText from "./components/LeftText.jsx";
 import RightText from "./components/RightText.jsx";
+import image1 from "./image-removebg-preview (45) (1).png";
+import image2 from "./image-removebg-preview (44) (1).png";
 
 function App() {
   const [chat, setChat] = useState(["Hi, how can I help you today?"]);
@@ -34,7 +36,11 @@ function App() {
   return (
     <>
       <div className="chat-container">
-        <div className="header">Nyaya-Bot</div>
+        <div className="header">
+          <img className="imgclass" src={image2}></img>
+          <div>Nyaya-Bot</div>
+          <img className="imgclass" src={image1}></img>
+          </div>
         <div className="message-area">
           <div>
             {chat.map((e, index) => (
