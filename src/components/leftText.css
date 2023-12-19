@@ -1,0 +1,10 @@
+.lText {
+  display: flex;
+  max-width: 300px; /* Adjust the maximum width as needed */
+  margin: 20px;
+  padding: 10px;
+  border-radius: 6px 6px 6px 0px;
+  border: 1px solid gray;
+  background-color:rgb(41, 40, 40)
+}
+
